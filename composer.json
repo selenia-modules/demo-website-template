@@ -1,6 +1,29 @@
 {
   "name": "selenia-templates/demo-website",
   "description": "Demonstration website made with Selenia",
+  "type": "selenia-template",
+  "keywords": [
+    "template",
+    "selenia"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Impactwave",
+      "email": "impactwave@impactwave.com",
+      "homepage": "http://impactwave.com"
+    },
+    {
+      "name": "Cláudio Silva",
+      "email": "claudio.silva@impactwave.com"
+    }
+  ],
+  "homepage": "https://github.com/selenia-templates/demo-website",
+  "require": {
+    "php": ">=5.6",
+    "selenia-plugins/admin-interface": "dev-master",
+    "selenia-plugins/login": "dev-master"
+  },
   "autoload": {
     "psr-4": {
       "SeleniaTemplates\\DemoWebsite\\": "src"
