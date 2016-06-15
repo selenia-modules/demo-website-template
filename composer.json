@@ -1,0 +1,9 @@
+{
+  "name": "selenia-templates/demo-website",
+  "description": "Demonstration website made with Selenia",
+  "autoload": {
+    "psr-4": {
+      "SeleniaTemplates\\DemoWebsite\\": "src"
+    }
+  }
+}
