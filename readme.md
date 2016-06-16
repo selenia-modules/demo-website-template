@@ -12,7 +12,7 @@ Git with it.
 To install this template on your application, using the terminal, `cd` to your app's directory and type:
 
 ```bash
-workman module:install-template selenia-templates/demo-website
+workman module:install-template selenia-modules/demo-website
 ```
 
 > **Warning**: this package cannot be installed with Composer. You must use the `workman` CLI.
@@ -21,4 +21,4 @@ workman module:install-template selenia-templates/demo-website
 
 The Selenia Platform is open-source software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
-**Selenia Platform** - Copyright &copy; Impactwave, Lda.
+**Selenia Platform** - Copyright &copy; Cláudio Silva and Impactwave, Lda.
