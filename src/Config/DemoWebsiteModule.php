@@ -4,13 +4,13 @@ namespace SeleniaTemplates\DemoWebsite\Config;
 use SeleniaTemplates\DemoWebsite\Controllers\Index;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Selenia\Application;
-use Selenia\Core\Assembly\Services\ModuleServices;
-use Selenia\Interfaces\Http\RouterInterface;
-use Selenia\Interfaces\ModuleInterface;
-use Selenia\Interfaces\Navigation\NavigationInterface;
-use Selenia\Interfaces\Navigation\NavigationProviderInterface;
-use Selenia\Plugins\Matisse\Components\Base\PageComponent;
+use Electro\Application;
+use Electro\Core\Assembly\Services\ModuleServices;
+use Electro\Interfaces\Http\RouterInterface;
+use Electro\Interfaces\ModuleInterface;
+use Electro\Interfaces\Navigation\NavigationInterface;
+use Electro\Interfaces\Navigation\NavigationProviderInterface;
+use Selenia\Platform\Components\Base\PageComponent;
 
 class DemoWebsiteModule implements ModuleInterface, NavigationProviderInterface
 {

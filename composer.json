@@ -1,9 +1,10 @@
 {
   "name": "selenia-modules/demo-website-template",
   "description": "Demonstration website made with Selenia",
-  "type": "selenia-template",
+  "type": "electro-template",
   "keywords": [
     "template",
+    "electro",
     "selenia"
   ],
   "license": "MIT",
