@@ -12,7 +12,7 @@ use Electro\Interfaces\Navigation\NavigationInterface;
 use Electro\Interfaces\Navigation\NavigationProviderInterface;
 use Selenia\Platform\Components\Base\PageComponent;
 
-class DemoWebsiteModule implements ModuleInterface, NavigationProviderInterface
+class DemoWebsiteTemplateModule implements ModuleInterface, NavigationProviderInterface
 {
   /** @var RouterInterface */
   private $router;
