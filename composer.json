@@ -28,5 +28,17 @@
     "psr-4": {
       "SeleniaTemplates\\DemoWebsite\\": "src"
     }
+  },
+  "extra": {
+    "bower": {
+      "require": {
+        "bootstrap": "^3.3.6",
+        "font-awesome": "4.6.3",
+        "modernizr": "2.8.3",
+        "prettyphoto": "",
+        "isotope": "3.0.1",
+        "retinajs": "2.0.0"
+      }
+    }
   }
 }
