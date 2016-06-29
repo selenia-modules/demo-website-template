@@ -14,16 +14,16 @@
     </div>
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
-        <li class="{navigation.home.isCurrent|then 'active'}"><a href="">HOME</a></li>
-        <li><a href="about">ABOUT</a></li>
-        <li><a href="contact">CONTACT</a></li>
+        <li class="{navigation.homepage.isCurrent|then 'active'}"><a href="">HOME</a></li>
+        <li class="{navigation.about.isCurrent|then 'active'}"><a href="about">ABOUT</a></li>
+        <li class="{navigation.contact.isCurrent|then 'active'}"><a href="contact">CONTACT</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="blog">BLOG</a></li>
-            <li><a href="single-post">SINGLE POST</a></li>
-            <li><a href="portfolio">PORTFOLIO</a></li>
-            <li><a href="single-project">SINGLE PROJECT</a></li>
+            <li class="{navigation.blog.isCurrent|then 'active'}"><a href="blog">BLOG</a></li>
+            <li class="{navigation.singlePost.isCurrent|then 'active'}"><a href="single-post">SINGLE POST</a></li>
+            <li class="{navigation.portfolio.isCurrent|then 'active'}"><a href="portfolio">PORTFOLIO</a></li>
+            <li class="{navigation.singleProject.isCurrent|then 'active'}"><a href="single-project">SINGLE PROJECT</a></li>
           </ul>
         </li>
       </ul>

@@ -1,5 +1,5 @@
 <?php
-namespace SeleniaModules\DemoWebsiteTemplate\Config;
+namespace SeleniaTemplates\DemoWebsite\Config;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
@@ -80,7 +80,7 @@ class DemoWebsiteTemplateModule implements
     $navigation->add ([
       ''               => $navigation
         ->link ()
-        ->id ('home')
+        ->id ('homepage')
         ->title ('Home'),
       'about'          => $navigation
         ->link ()
@@ -92,7 +92,7 @@ class DemoWebsiteTemplateModule implements
         ->title ('Contact'),
       'single-post'    => $navigation
         ->link ()
-        ->id ('single-post')
+        ->id ('singlePost')
         ->title ('Single Post'),
       'porfolio'       => $navigation
         ->link ()
@@ -101,7 +101,7 @@ class DemoWebsiteTemplateModule implements
       'single-project' => $navigation
         ->link ()
         ->id ('single-project')
-        ->title ('Single project'),
+        ->title ('SingleProject'),
     ]);
   }
 
