@@ -1,10 +1,10 @@
 <Content of="master">
 
   <body>
-    {statusMessage|*}
-
+    <Include view="includes/menu.html"/>
+    {#statusMessage|*}
     {#main|*}
-
+    <Include view="includes/footer.html"/>
     <Include scripts/>
   </body>
 

@@ -1,0 +1,20 @@
+<Macro name="Work" defaultParam="title">
+  <Param name="image" type="string" default=""/>
+  <Param name="title" type="string" default="Work Title"/>
+  <Param name="link" type="string" default="single-project.html"/>
+
+  <div class="portfolio-item web-design">
+    <div class="he-wrap tpl6">
+      <img src="{@image}" alt="">
+      <div class="he-view">
+        <div class="bg a0" data-animate="fadeIn">
+          <h3 class="a1" data-animate="fadeInDown">{@title}</h3>
+          <a data-rel="prettyPhoto" href="{@image}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+          <a href="{@link}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+        </div><!-- he bg -->
+      </div><!-- he view -->
+    </div><!-- he wrap -->
+  </div><!-- end col-12 -->
+
+
+</Macro>

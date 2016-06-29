@@ -1,0 +1,16 @@
+<Macro name="Blogpost" defaultParam="content">
+  <Param name="image" type="string" default=""/>
+  <Param name="title" type="string" default="BLog Post Title"/>
+  <Param name="link" type="string" default="single-post"/>
+  <Param name="linktext" type="string" default="[More]"/>
+  <Param name="date" type="string" default="2016"/>
+  <Param name="content" type="content" default="Cras facilisis mi sit amet felis vulputate vestibulum. Praesent lacus nulla, euismod sit amet cursus a, interdum tempus quam. Mauris feugiat rutrum iaculis. In hac habitasse platea dictumst. "/>
+
+  <p><img class="img-responsive" src="{@image}"></p>
+  <a href="single-post"><h3 class="ctitle">{@title}</h3></a>
+  <p><csmall>Posted: {@date}</csmall> | <csmall2>By: Admin - 3 Comments</csmall2></p>
+  <p>{@content}</p>
+  <p><a href="{@link}">{@linktext}</a></p>
+  <div class="hline"></div>
+
+</Macro>

@@ -1,0 +1,16 @@
+<Macro name="Feature" defaultParam="content">
+  <Param name="title" type="string" default="Feature"/>
+  <Param name="icon" type="string" default="fa-heart-o"/>
+  <Param name="link" type="string" default=""/>
+  <Param name="linktext" type="string" default="More Info"/>
+  <Param name="content" type="content" default="Cras facilisis mi sit amet felis vulputate vestibulum. Praesent lacus nulla, euismod sit amet cursus a, interdum tempus quam. Mauris feugiat rutrum iaculis. In hac habitasse platea dictumst. "/>
+
+  <i class="fa {@icon}"></i>
+  <h4>{@title}</h4>
+  <p>{@content}</p>
+  <p>
+    <br/>
+    <a href="{@link}" class="btn btn-theme">{@linktext}</a>
+  </p>
+
+</Macro>
