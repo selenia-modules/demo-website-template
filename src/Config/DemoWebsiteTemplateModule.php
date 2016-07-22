@@ -55,9 +55,9 @@ class DemoWebsiteTemplateModule implements
   function configure (ModuleServices $module, RouterInterface $router, Application $app)
   {
     $this->router = $router;
-    $app->name    = 'electro';      // session cookie name
-    $app->appName = 'Electro Demo Website';     // default page title; also displayed on title bar (optional)
-    $app->title   = '@ - Electro Demo Website'; // @ = page title
+    $app->name    = 'demowebsite';      // session cookie name
+    $app->appName = 'Demo Website';     // default page title; also displayed on title bar (optional)
+    $app->title   = '@ - Demo Website'; // @ = page title
     $module
       ->publishPublicDirAs ('modules/selenia-modules/demo-website-template')
       ->provideMacros ()
