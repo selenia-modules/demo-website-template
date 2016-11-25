@@ -1,5 +1,5 @@
 <?php
-namespace ___NAMESPACE___\Config;
+namespace SeleniaTemplates\DemoWebsite\Config;
 
 use Electro\Interfaces\Http\RequestHandlerInterface;
 use Electro\Interfaces\Http\RouterInterface;
