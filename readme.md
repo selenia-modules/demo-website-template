@@ -12,7 +12,7 @@ Git with it.
 To install this template on your application, using the terminal, `cd` to your app's directory and type:
 
 ```bash
-workman module:install-template selenia-modules/demo-website
+workman install template selenia/demo-website
 ```
 
 > **Warning**: this package cannot be installed with Composer. You must use the `workman` CLI.
